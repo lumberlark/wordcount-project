@@ -1,0 +1,184 @@
+body{
+    font-family: monospace;
+    background-color: dimgray
+}
+#container{
+    border: 5px double skyblue;
+    width: 1020px;
+    margin: 0 auto;
+}
+#header{
+    height: 100px;
+    padding: 0px 30px;
+    background: linear-gradient(white,black);
+}
+#brand{
+    float: left
+}
+h1{
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 70px;
+    color: ghostwhite;
+    width: 465px;
+    position: relative;
+    left: 50px;
+    bottom: 40px;
+    background-image: url(images/snow2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-size: 125px;
+}
+#search{
+    float: right;
+    padding: 40px;
+}
+#searchbar{
+    width: 200px;
+    height: 25px;
+   font-weight: bold;
+    border: 3px double black;
+}
+#searchgame{
+    height: 30px;
+    width: 120px;
+    font-family:fantasy;
+}
+
+#menu{
+    margin: 0 auto;
+    width: 1024px;
+    height: 100px;
+    border: 3px solid skyblue;
+    background:linear-gradient(black,slategray);
+   
+}
+
+#menu ul{
+    list-style: none;
+    float: left;
+    width: 1085px;
+    position: relative;
+    bottom: 55px;
+}
+#menu ul li{
+    font-size: 43px;
+    font-weight: bold;
+    float: left;
+    border-right: 1px solid white;
+}
+
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a{
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 50px;
+    text-transform: uppercase;
+    color:deepskyblue
+}
+ 
+#bar{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#leftbar{
+    float: left;
+    width: 450px;
+    height: 360px;
+    border: 1px solid white;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: monospace;
+    text-decoration-color: white;
+    color:aliceblue;
+}
+
+
+#rightbar{
+    float:right;
+    width: 450px;
+    height: 360px;
+    border: 1px solid white;
+    position: relative;
+}
+
+
+.video{
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+}
+
+#select{
+    text-align: center;
+    position: relative;
+    left: 135px;
+    width: 175px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#button1{
+    width: 200px;
+    position: relative;
+    top: 60px;
+    padding: 5px;
+    right: 60px;
+    background:linear-gradient(royalblue,black);
+    color: skyblue;
+    transition: 0.4s;
+    opacity: 0.8;
+}
+
+#button1:hover{
+    width: 230px;
+    color: skyblue;
+    opacity: 1;
+    
+}
+
+#reset{
+    margin: 0 auto;
+    width: 200px;
+    padding: 5px;
+    position: relative;
+    left: 122px;
+    top: 90px;
+    transition: .4s;
+    opacity: 0.8;
+    background:linear-gradient(royalblue,black);
+    color: skyblue;
+}
+
+#reset:hover{
+    width: 230px;
+    color: skyblue;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

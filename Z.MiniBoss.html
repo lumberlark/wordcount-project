@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MiniBoss</title>
+        <link rel="stylesheet" type="text/css" href="Z.MiniBossCSS.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <div id="brand">
+                    <h1>Avalanche</h1>
+                </div>
+                <div>
+                    <form method="get" id="search">
+                        <input type="text" id="searchbar">
+                        <input type="submit" value="Search Game" id="searchgame">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="#">Home Page</a></li>
+                <li><a href="#">Sponsors</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div id="bar">
+            <div id="leftbar">
+                <h2>Choose a game:</h2>
+    <select id="select" onChange="changeFunc();">
+        <option value="#">Select</option>
+        <option value="1">Dark Souls</option>
+        <option value="2">Kingdom Hearts</option>
+   </select> 
+        <button id="button1">Check out trailer</button>
+        <br/>
+        <button id="reset">Reset page</button>        
+            </div>
+            <div id="rightbar">
+                <h2>Trailer:</h2>
+                <div>
+                    <h2 id="video">Video Will be placed here</h2>
+                    
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="z.MiniBoss.js">
+        </script>
+    </body>
+</html>
